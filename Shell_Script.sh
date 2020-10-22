@@ -1,0 +1,1 @@
+cat sed 's/INCORRECT_PASSWORD?ACCESS_DENIED/g LogA.txt | awk -F" " '{print $1, $3}' > Log_Analysis.sh
